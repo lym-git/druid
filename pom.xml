@@ -80,6 +80,7 @@
 				<version>1.0-beta-2</version>
 			</extension>
 		</extensions>
+		<pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -230,6 +231,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		</pluginManagement>
 	</build>
 
 	<profiles>
@@ -322,7 +324,6 @@
 				</property>
 			</activation>
 			<build>
-				<pluginManagement>
 				<plugins>
 					<plugin>
 						<!-- for codecov.io -->
@@ -348,7 +349,6 @@
 						</executions>
 					</plugin>
 				</plugins>
-				</pluginManagement>
 			</build>
 		</profile>
 	</profiles>
