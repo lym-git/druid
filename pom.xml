@@ -322,10 +322,12 @@
 				</property>
 			</activation>
 			<build>
+				<pluginManagement>
 				<plugins>
 					<plugin>
 						<!-- for codecov.io -->
-						<!-- config example: https://github.com/codecov/example-java -->
+						<!-- config example: https://github.com/codecov/exam
+						ple-java -->
 						<!-- plugin docs: http://eclemma.org/jacoco/trunk/doc/ -->
 						<groupId>org.jacoco</groupId>
 						<artifactId>jacoco-maven-plugin</artifactId>
@@ -346,6 +348,7 @@
 						</executions>
 					</plugin>
 				</plugins>
+				</pluginManagement>
 			</build>
 		</profile>
 	</profiles>
